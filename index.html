@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Power of Sequencing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="story-wrapper">
+    <!-- Header & Mode Switcher -->
+    <header class="header">
+      <h1 class="title" id="story-title">The Spark</h1>
+      <p class="subtitle" id="story-tagline">A narrative of connection</p>
+
+      <div class="narrative-switcher" role="group" aria-label="Select story version">
+        <button id="btn-seq-a" class="tab-btn active">Sequence A: The Spark</button>
+        <button id="btn-seq-b" class="tab-btn">Sequence B: The Drift</button>
+      </div>
+    </header>
+
+    <!-- Visual Presentation Box -->
+    <section class="display-card">
+      <div class="stage-tag" id="stage-label">Beginning</div>
+
+      <div class="image-container" id="image-frame">
+        <img id="story-img" src="" alt="Story visual" />
+      </div>
+
+      <!-- Narrative Text -->
+      <article class="narrative-box">
+        <p id="story-text">Loading narrative...</p>
+      </article>
+
+      <!-- Navigation & Progress Indicator -->
+      <nav class="controls" aria-label="Story navigation">
+        <button id="prev-btn" class="nav-btn" disabled>&larr; Previous</button>
+
+        <div class="dots-indicator" id="dots-container">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+        <button id="next-btn" class="nav-btn">Next &rarr;</button>
+      </nav>
+    </section>
+
+    <footer class="footer">
+      <p>Interactive Story Sequencing Lab &bull; Same 3 moments, two distinct truths.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
