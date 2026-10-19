@@ -6,19 +6,19 @@ const stories = {
     steps: [
       {
         stage: "Beginning",
-        image: "images/walk.jpg",
+        image: "walk.jpg",
         alt: "Two people walking side-by-side along a city sidewalk during the day",
         caption: "A quiet afternoon meetup. Walking side by side through the city, conversation flows effortlessly as curious glances bridge the distance between two strangers."
       },
       {
         stage: "Middle",
-        image: "images/dinner.jpg",
+        image: "dinner.jpg",
         alt: "Candlelit restaurant table with food, juice, and warm ambiance",
         caption: "Dusk arrives over shared food and glowing candlelight. The laughter turns softer and more honest, grounding the feeling that this evening is becoming something special."
       },
       {
         stage: "End",
-        image: "images/hands.jpg",
+        image: "hands.jpg",
         alt: "Two hands holding over the car gear shift illuminated by red dashboard lights",
         caption: "Midnight on the quiet drive home. Hands find each other across the console under the warm red glow—a quiet unspoken promise that the journey has just begun."
       }
@@ -30,19 +30,19 @@ const stories = {
     steps: [
       {
         stage: "Beginning",
-        image: "images/hands.jpg",
+        image: "hands.jpg",
         alt: "Two hands holding tightly in the glow of car dashboard lights",
         caption: "A late-night drive gripped by heavy tension. Hands hold tight over the gearshift, holding on with urgency as if trying to grasp something that is already slipping away."
       },
       {
         stage: "Middle",
-        image: "images/dinner.jpg",
+        image: "dinner.jpg",
         alt: "A solitary meal at a table with a candle glowing between them",
         caption: "An uneasy dinner under dim candlelight. The gestures are polite and familiar, yet words fall short, and the space across the table feels wider than ever before."
       },
       {
         stage: "End",
-        image: "images/walk.jpg",
+        image: "walk.jpg",
         alt: "Two people walking away down the sidewalk into the daylight",
         caption: "The morning after in plain daylight. Walking together yet worlds apart, steps falling out of sync as they step back into their separate lives."
       }
